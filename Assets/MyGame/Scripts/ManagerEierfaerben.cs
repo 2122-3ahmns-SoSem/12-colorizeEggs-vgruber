@@ -87,9 +87,9 @@ public class ManagerEierfaerben : MonoBehaviour
 
     public void TurnOnLamps(GameObject thatOne)
     {
-        lamps[0].SwitchOnOffState();
-        lamps[1].SwitchOnOffState();
-        lamps[2].SwitchOnOffState();
+        lamps[0].SwitchOn(false);
+        lamps[1].SwitchOn(false);
+        lamps[2].SwitchOn(false);
         //theres probably a better way huh
     }
 
