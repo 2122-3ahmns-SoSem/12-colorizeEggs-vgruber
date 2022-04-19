@@ -85,9 +85,12 @@ public class ManagerEierfaerben : MonoBehaviour
         }
     }
 
-    public void TurnOnLamps(bool on)
+    public void TurnOnLamps(GameObject thatOne)
     {
-
+        lamps[0].SwitchOnOffState();
+        lamps[1].SwitchOnOffState();
+        lamps[2].SwitchOnOffState();
+        //theres probably a better way huh
     }
 
     public void GenerateOrder()
