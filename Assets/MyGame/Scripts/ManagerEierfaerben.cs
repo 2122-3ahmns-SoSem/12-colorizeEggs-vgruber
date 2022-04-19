@@ -41,6 +41,11 @@ public class ManagerEierfaerben : MonoBehaviour
 
     private void Update()
     {
+        SetBlueDoneValue();
+        SetGreenDoneValue();
+        SetRedDoneValue();
+        SetWhiteDoneValue();
+
         if(eggs[maxOrderEggs-1].inBasket)
         {
             overlay.gameObject.SetActive(true);
