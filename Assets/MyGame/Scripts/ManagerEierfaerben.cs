@@ -92,13 +92,13 @@ public class ManagerEierfaerben : MonoBehaviour
 
     public void TurnOnLamps()
     {
-        // dirkete alle extra variante 2:
+        // dirkete alle extra, lmao there was a better way! variante 2:
         foreach (var l in lamps)
         {
             l.SwitchOn(false);
         }
         //Variante 3:
-        //for(int i =0;  i < maxOrderEggs ; i++)
+        //for(int i = 0;  i < lamps.Length ; i++)
         //{
         //    lamps[i].SwitchOn(false);
         //}
